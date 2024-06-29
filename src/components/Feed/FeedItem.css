@@ -14,7 +14,7 @@
 }
 
 .feed-item-header {
-  padding: 1px;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: center;
