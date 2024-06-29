@@ -1,0 +1,9 @@
+.tab-content {
+  margin: 30px;
+}
+
+.content {
+  margin-left: 30px; /* 좌측 여백 */
+  margin-right: 30px; /* 우측 여백 */
+  padding: 20px; /* 내부 여백 */
+}

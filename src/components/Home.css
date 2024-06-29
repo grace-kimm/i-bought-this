@@ -1,0 +1,16 @@
+.home {
+  max-width: var(--max-width);
+  min-width: var(--min-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.tab-content {
+  margin-top: 20px;
+}

@@ -1,0 +1,93 @@
+.feed-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.feed-item-image {
+  width: 100%;
+  height: auto;
+}
+
+.feed-item-header {
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed-item-nickname {
+  font-weight: bold;
+  font-size: 14px;
+  color: #555;
+}
+
+.feed-item-date {
+  font-size: 12px;
+  color: #888;
+}
+
+.feed-item-content {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.feed-item-description-container {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+.feed-item-description {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* 원하는 줄 수 */
+  -webkit-box-orient: vertical;
+}
+
+.feed-item-description.expanded {
+  -webkit-line-clamp: unset;
+}
+
+.expand-button {
+  background: none;
+  border: none;
+  color: var(--point-color);
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+  margin-top: 5px;
+  align-self: flex-start;
+}
+
+.feed-item-like {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.like-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--point-color);
+  font-size: 24px;
+}
+
+.like-count {
+  font-size: 12px;
+  color: #555;
+}
